@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Li/AndroidstudioProjects/code1/app/libs/sugar-1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5f8a323697ff1f101f72a345b14185d76d7c4353">
+        <dex dex="/Users/Li/AndroidstudioProjects/code1/app/build/intermediates/pre-dexed/debug/sugar-1.3-7daf505eac9470fb4fda8dc1f70c1ee047de04ba.jar" />
+    </item>
+    <item
+        jar="/Users/Li/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/Li/AndroidstudioProjects/code1/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-0142d08b84d3e98a57b4424470f5eac424e275c4.jar" />
+    </item>
+
+</items>

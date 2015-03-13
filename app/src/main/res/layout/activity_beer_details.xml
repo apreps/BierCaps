@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:background="@color/cream"
+    tools:context="com.example.biercaps.BeerDetails" >
+
+    <TextView
+        android:id="@+id/textViewDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/detail_name"
+        android:textSize="25dp"
+        android:textColor="@color/dark_blue"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewBeerName"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/round_corners_dark_blue"
+        android:layout_below="@id/textViewDetailName" />
+
+    <TextView
+        android:id="@+id/textViewDetailCountry"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewBeerName"
+        android:layout_marginTop="10dp"
+        android:text="@string/detail_country"
+        android:textSize="25dp"
+        android:textColor="@color/dark_blue"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewBeerCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/round_corners_dark_blue"
+        android:layout_below="@id/textViewDetailCountry" />
+
+    <TextView
+        android:id="@+id/textViewDetailNotes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/textViewBeerCountry"
+        android:layout_marginTop="10dp"
+        android:text="@string/detail_notes"
+        android:textSize="25dp"
+        android:textColor="@color/dark_blue"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewBeerNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/round_corners_dark_blue"
+        android:layout_below="@id/textViewDetailNotes" />
+
+    <TextView
+        android:id="@+id/textViewDetailRating"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/textViewBeerNotes"
+        android:layout_marginTop="20dp"
+        android:text="@string/detail_rating"
+        android:textSize="25dp"
+        android:textColor="@color/dark_blue"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/textViewDetailRating">
+
+    <RatingBar
+        android:id="@+id/ratingBarDetailBeer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="0.5"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_blue"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonGoBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.5"
+            android:text="@string/go_back"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:background="@drawable/button_white_black"/>
+
+        <Button
+            android:id="@+id/buttonEditBeer"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:background="@drawable/button_white_black"
+            android:layout_toRightOf="@id/buttonGoBack"
+            android:text="@string/edit_beer" />
+    </LinearLayout>
+
+</RelativeLayout>
