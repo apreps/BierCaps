@@ -4,7 +4,8 @@
 
 An Android application developed to ease the management of beer caps collection.
 
-### Status: the application is functional but some improvements are being implemented.
+### Status
+The application is functional but some improvements are being implemented.
 
 ## Available Features
 
