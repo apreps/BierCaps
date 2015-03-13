@@ -1,7 +1,5 @@
 # BierCaps
 
-## Description 
-
 An Android application developed to ease the management of beer caps collection.
 
 ### Status
