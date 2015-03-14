@@ -7,11 +7,26 @@ The application is functional but some improvements are being implemented.
 
 ## Available Features
 
-- Add beer cap (picture and basic info - name, country of origin, notes and rating);
-- Remove beer cap;
-- Edit beer cap;
-- Search database;
-- Export and import database;
+- **Quickly add a new beer cap and visualize all items in the collection**. The main page of the application shows a scrolling gridview with all the items of the collection and a fixed top button to quickly add a new item to the collection. Searching the database is also available in the main page.
+
+![BierCaps main page](https://raw.github.com/apreps/BierCaps/master/screenshots/main-page.png)
+
+- **Add a new beer cap to the collection.** 
+Basic information like the name, country of origin, some notes and a rating can be inserted. None of the fields is mandatory, therefore you can edit the information after adding the cap to the collection.
+
+- **Remove beer cap.** This can be done by simply long press the image of the cap. A warning message is displayed to confirm the action.
+
+- **Edit beer cap.** After adding a cap, it is possible to change all the basic information by pressing "Edit" while in the beer cap information page. If hits the "Go Back" button while editing, a warning is displayed to validate the action.
+
+![BierCaps - edit beer cap](https://raw.github.com/apreps/BierCaps/master/screenshots/warning.png)
+
+- **Search database.** Easily search the collection by hitting the search button (magnifying glass) on the top of the main page.
+
+![BierCaps - search database](https://raw.github.com/apreps/BierCaps/master/screenshots/main-page-search.png) ![BierCaps - search database](https://raw.github.com/apreps/BierCaps/master/screenshots/search-result.png)
+
+- **Export and import database;.** It is possible to export the database to the memory of the device, as well as, import a database to the application. The database file to import should be placed in the root of the memory (card or internal).
+
+![BierCaps - import/export database function](https://raw.github.com/apreps/BierCaps/master/screenshots/import-export-db.png)
 
 ## TO-DO
 
